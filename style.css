@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*,a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+div{
+    align-items: center;
+}
+.menu ul li a:hover{
+    font-weight: bold;
+    color: grey;
+    transition: 0.6s;
+    border-bottom: 1px solid grey;
+}
+h2,p,audio{
+    text-align: center;
+}
+.menu {
+    top: 0;
+     width: 100%;
+    }
+.menu ul {
+    font-size: 15px; 
+    text-align:center;
+ }
+.menu ul li {
+    display: inline;
+ }
+.menu ul li a {
+    margin-left: 2rem;
+}
+a.header-a {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu h2{
+    margin: auto;
+}
+.section-musc{
+    display: flex;
+    margin-top: 6rem;
+    border: 1px solid grey;
+    background-color: #cecece;
+}
+#music-1, #music-2, #music-3{
+    width: 33%;
+    height: 17rem;
+    overflow: auto;
+    border-right: 1px solid grey;
+    margin-left: 1rem;
+}
+
+#hw1,#hw2,#hw3,#hw4{
+    background-color: #cecece;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+.contato {
+    display: flex;
+    background-color: #cecece;
+    justify-content: center;
+    height: 30rem;
+}
+.contato h1{
+    text-align: center;
+}
+form {
+    background-color: #FFF;
+    width: 48rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+.div-form {
+    max-width: 50rem;
+    justify-content: center;
+    display: grid;
+    margin-top: 4rem;
+}
+.name{
+    display: flex;
+}
+#name,#email{
+    margin-bottom: 1rem;
+}
+#name,#email,#lastname,#text{
+    margin-top: 0.5rem;
+    width: 15rem;
+    border: none;
+    border-bottom: 1px solid #cecece;
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#lastname{
+    margin-bottom: 1rem;
+}
+.lastname{
+    margin-left: 1rem;
+}
+textarea#texto {
+    width: 15rem;
+    height: 6rem;
+    border-color: #cecece;
+}
+input[type="submit"] {
+    margin-top: 1rem;
+    border-color: 1px solid #cecece;
+    color: #000;
+}
